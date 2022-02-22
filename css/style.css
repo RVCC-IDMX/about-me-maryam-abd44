@@ -1,7 +1,7 @@
 body {
     font-family:Oswald;
     background-color: #F0CA8D;
-    color: #50A2DB;
+    color: #00008B;
 
 }
 
@@ -15,7 +15,7 @@ header {
 }
 
 #hero, footer {
-    color:#50A2DB; 
+    color:#00008B; 
     border: 2px solid #97E3F0;
     background-color: #E6B39C;
     text-align:center;
