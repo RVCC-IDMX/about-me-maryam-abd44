@@ -23,10 +23,13 @@ header {
     padding:10px;
 }
 
+/* Hero Section */
+
 #hero img {
     width:300px;
-
 }
+
+/* Bio Section */
 
 #bio {
     text-align:center;
@@ -38,6 +41,22 @@ header {
     text-align: center;
 }
 
+/* Hobbies */
+
 #hobbies ul li:nth-child(odd) {
     color:#008080;
+}
+
+/* Photo Gallery */
+
+#gallery {
+    border: 2px solid #97E3F0;
+}
+
+#gallery img {
+    max-width:100%;
+}
+
+#gallery figure {
+    text-align:center;
 }
