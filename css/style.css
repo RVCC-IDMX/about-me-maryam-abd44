@@ -17,8 +17,11 @@ header {
 
 #hero, footer {
     color:#00008B; 
-    border: 2px solid #97E3F0;
+    border: 10px double #97E3F0;
+    border-radius: 50px;
+    box-shadow: 3.5px 3.5px 3.5px 3.5px rgba(0,0,0,.5) inset;
     background-color: #E6B39C;
+    background-origin:border-box;
     text-align:center;
     padding:10px;
 }
@@ -51,6 +54,7 @@ header {
 
 #gallery {
     border: 2px solid #97E3F0;
+    margin-bottom:3rem;
 }
 
 #gallery img {
@@ -59,4 +63,28 @@ header {
 
 #gallery figure {
     text-align:center;
+}
+
+/* Literature */
+#lit {
+    border: 2px solid #97E3F0;
+    margin-bottom:3rem;
+}
+
+#lit div{
+    padding:3rem;
+    clear:both;
+}
+
+#lit div :first-letter {
+    color:#00008B;
+    font-size:4rem;
+    float:left;
+    margin-right:1rem;
+    box-shadow: 10px 10px rgba(0,0,0,.5);
+    line-height: 70%;
+    font-size:3rem;
+    padding:.5rem;
+    line-height:.65;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
