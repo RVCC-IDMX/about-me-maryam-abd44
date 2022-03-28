@@ -145,3 +145,8 @@ hr {
 figure {
 display: block;
 }
+
+video {
+   display: block;
+   margin: auto;
+}
