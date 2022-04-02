@@ -101,6 +101,13 @@ section#hobbies{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
+/* Contatct Form */
+
+    #formElements {
+      display:grid;
+
+    }
+
 /* tablet size */
 
 @media screen and (min-width: 60em){}
@@ -113,7 +120,7 @@ section#hobbies{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 2rem;
+        font-size: 1rem;
         margin-left: 1rem;
     }
 
@@ -131,7 +138,7 @@ section#hobbies{
 @media screen and (min-width: 100em){}
     #gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1.5fr 2fr 1fr;
     }
 
 hr {
