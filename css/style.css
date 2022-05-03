@@ -1,7 +1,7 @@
 body {
-    font-family:Oswald;
-    background-color: #F0CA8D;
-    color: #00008B;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F0F0F0;
+    color: #02558B;
 
 }
 
@@ -20,15 +20,21 @@ header {
 }
 
 #hero, footer {
-    color:#00008B; 
-    border: 10px double #97E3F0;
-    border-radius: 50px;
-    box-shadow: 3.5px 3.5px 3.5px 3.5px rgba(0,0,0,.5) inset;
-    background-color: #E6B39C;
+    color:#000; 
+    border: 10px double #02558B;
+    border-radius: 20px;
+    box-shadow: 3.5px 3.5px 3.5px 3.5px rgba(0,0,0,1) inset;
+    background-color: #02558B;
     background-origin:border-box;
     text-align:center;
+    text-shadow:1px 1px 1px #000, 
+    2.5px 2.5px 4px #A5A5AF; 
+    padding: .5em;
+    margin-bottom: 2em;
     padding:10px;
+    margin-bottom: 2rem;
 }
+
 
 /* Hero Section */
 
@@ -38,34 +44,38 @@ header {
 
 /* Bio Section */
 
-#bio {
-    text-align:center;
-
-
+#bio h1 {
+    text-align: left;
+    color: #02558B;
+    font-weight: bold;
+  text-shadow: 1px 1.5px 1px gray;
 }
 
 #bio {
-    text-align: center;
+    
+    text-align: left;
+    color: #000000;
 }
+   
 
-/* Hobbies */
-
-section#hobbies{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#hobbies ul li:nth-child(odd) {
-    color:#008080;
-}
 
 /* Photo Gallery */
 
-#gallery {
-    border: 2px solid #97E3F0;
-    margin-bottom:3rem;
+#gallery h2{
+    text-align: left;
+    color: #02558B;
+    text-shadow: 1px 1.5px 1px gray;
 }
+
+img {
+
+    width:  440px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: rgba(50, 50, 93, 0.50) 
+    0px 2px 5px -1px, rgba(0, 0, 0, 0.5) 0px 1px 3px -1px;
+}
+    
 
 #gallery img {
     max-width:100%;
@@ -75,10 +85,19 @@ section#hobbies{
     text-align:center;
 }
 
+
+
 /* Literature */
+
+#lit h2 {
+    text-align: left;
+    color: #02558B;
+    text-shadow: 1px 1.5px 1px gray;
+}
+
 #lit {
-    border: 2px solid #97E3F0;
-    margin-bottom:3rem;
+    color: black;
+    margin-bottom: 3rem;
 }
 
 #lit div{
@@ -89,12 +108,13 @@ section#hobbies{
 /* Dropcaps */
 
 #lit div :first-child:first-letter {
-    color:#00008B;
+    color:#02558B;
     font-size:4rem;
     float:left;
     margin-right:1rem;
-    box-shadow: 10px 10px rgba(0,0,0,.5);
-    line-height: 70%;
+    border: 2.5px double;
+    border-radius: 5px; 
+    text-shadow: 2.5px 5.5px 3.5px gray;
     font-size:3rem;
     padding:.5rem;
     line-height:.65;
@@ -102,15 +122,15 @@ section#hobbies{
 }
 
 /* Video */
-#video {
-    border: 1px solid #97E3F0;
-     margin-top:1em;
-     margin-bottom:1em;
+
+#video h2 {
+    
+     margin-top:2em;
+     margin-bottom:2em;
     display: block;
     margin: auto 0px;
-    
-    
  }
+
 
 /* Contatct Form */
 
@@ -120,22 +140,28 @@ section#hobbies{
 
     }
 
-    #conact {
+    #contact h2 {
+        color: #02558B;
+        text-shadow: 1px 1.5px 1px gray;
+    }
+
+    #contact {
         padding: 1rem;
         max-width: 600px;
         margin: 2rem auto;
     }
 
     fieldset {
-        border: 2px solid #97E3F0;
+        border: 2px solid #02558B;
         margin-top:1em;
         margin-bottom:1em;
-        border-radius: 2rem;
+        border-radius: .5rem;
+        
 
     }
 
     legend {
-        background-color: #97E3F0;
+        background-color: #02558B;
         color: white;
         padding:.5em;
     }
@@ -155,9 +181,9 @@ section#hobbies{
     }
 
     #contact button {
-        background-color: #97E3F0;
+        background-color: #02558B;
         color: white;
-        border: 1px solid #00008B;
+        border: 1px solid #02558B;
         max-width: 400px;
         width: 75px;
         justify-self: center;
@@ -207,3 +233,4 @@ hr {
 figure {
 display: block;
 }
+
