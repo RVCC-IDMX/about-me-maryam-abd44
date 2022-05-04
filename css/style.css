@@ -32,7 +32,7 @@ header {
     padding: .5em;
     margin-bottom: 2em;
     padding:10px;
-    margin-bottom: 2rem;
+    
 }
 
 
@@ -48,7 +48,7 @@ header {
     text-align: left;
     color: #02558B;
     font-weight: bold;
-  text-shadow: 1px 1.5px 1px gray;
+    text-shadow: 1px 1.5px 1px gray;
 }
 
 #bio {
@@ -68,7 +68,7 @@ header {
 }
 
 img {
-
+    position:relative;
     width:  440px;
     height: 300px;
     object-fit: cover;
@@ -78,8 +78,10 @@ img {
     
 
 #gallery img {
+    display: block;
     max-width:100%;
 }
+
 
 #gallery figure {
     text-align:center;
@@ -120,6 +122,42 @@ img {
     line-height:.65;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
+
+/* CSS Animation */
+
+#animations h2{
+    text-align: left;
+    color: #02558B;
+    text-shadow: 1px 1.5px 1px gray;
+
+}
+
+
+.box {
+    width: 25px;
+    height:25px;
+    background-color: #cdb4db;
+    border-radius:100px;
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+   
+
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+}
+
+
+@keyframes animation {
+    0% {background-color:#00296b; left: 0px top:0px}
+    25% {background-color:#003f88; left: 300px top: 0px;}
+    50% {background-color:#00509d; left:500px;}
+    75% {background-color:#fdc500;}
+    100% {background-color:#ffd500;}
+
+}
+
 
 /* Video */
 

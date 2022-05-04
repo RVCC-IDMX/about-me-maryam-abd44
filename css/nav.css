@@ -114,7 +114,6 @@ svg {
 
 #nav__checkbox:checked ~ .navbar-links li {  
     display: block;
-
 }
 
 .navbar-links a:hover,
@@ -136,8 +135,19 @@ such that no text wraps
     flex-direction: row;
     justify-content: space-between;
 }
+.toggle {
+    display: none;
+}
+
+.menu {
+    flex-direction: row;
+}
+
+li {
+    display:block;
+}
 .navbar ul {
     display: flex;
     justify-content: space-between;
     }
-}
+
